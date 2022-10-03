@@ -1,0 +1,27 @@
+
+header {
+    background-color: blue;
+}
+
+section {
+    background-color: grey;
+}
+
+section.Articulos { 
+    background-color:blueviolet;
+}
+section.Artistas { 
+    background-color: indianred;
+}
+ul.Menu {
+    background-color: orange;
+    }
+
+footer{
+    background-color: black;
+    color: whitesmoke;
+}
+ul{
+    list-style-type: armenian;
+    font-family: fantasy;
+}

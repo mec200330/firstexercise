@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Styles/stylesform.css">
+    <title>Conocerte Mejor</title>
+</head>
+<body>
+    
+    <section id="form" class="form">
+    <h1>Queremos conocerte para esto clicquea, rellena o escoge las opciones que se acerquen mas a tus gustos</h1>
+
+    <h3>Primero, quien eres</h3>
+  <br>
+<form>
+ <label for="Firstname">Nombre </label>
+ <input type="text" id="fname" name="fname" placeholder="Escribe tu nombre">
+ <label for="Lastname">Apellidos</label>
+ <input type="text" id="lname" name="lname" placeholder="Escribe tu apellido">
+<br>
+<hr>
+ <h3>Cuantos años tienes</h3>
+<br>
+    <input list="Age" name ="Age">
+    <datalist id="Age">
+    <option value="0-10">
+    <option value="11-15">
+    <option value="16-20">
+    <option value="21-25">
+    <option value="26-30">
+    <option value="31-35">
+    <option value="36-40">
+    <option value="41-45">
+    <option value="46-100">
+    </datalist>
+<br>
+<hr>
+    <h3>De los siguientes artistas del pixel con cual te identificas más?</h3>
+<br>
+    <input type="radio" id="Pixel3x" name="artistfav">
+    <label for="Pixel3X">Pixel 3X</label>
+    <input type="radio" id="Pixel Davinci" name="artistfav">
+    <label for="Pixel Davinci">Pixel Davinci</label>
+    <input type="radio" id="Leonardo 4XX" name="artistfav">
+    <label for="Leonardo 4XX">Leonardo 4XX</label>
+    <input type="radio" id="Mustafa Pixel" name="artistfav">
+    <label for="Mustafa Pixel">Mustafa Pixel</label>
+    <br>
+    <h3>Cuanto Pixeles tienes almacenados en casa??</h3>
+    <input type="checkbox" id="tengo20" name="tengo20" value="20">
+    <label for="tengo20">Tengo 20 Pixeles</label>
+    <input type="checkbox" id="tengo50" name="tengo50" value="50">
+    <label for="tengo50">Tengo 50 Pixeles</label>
+    <input type="checkbox" id="tengo100" name="tengo100" value="100">
+    <label for="tengo100">Tengo 100 Pixeles</label>
+    <input type="checkbox" id="millonespixel" name="mollonespixel" value="millonario">
+    <label for="millonespixel">Tengo todos los pixeles que quiero</label>
+<br>
+<br>
+<h3>Cuentanos tu experiencia con los pixeles...</h3>
+<textarea name="coments" id="coments" cols="50" rows="30"></textarea>
+<br>
+<br>
+<input type="submit" >
+</form>
+<br>
+<br>
+<br>
+<br>
+<br>
+    <a href="../index.html"><img src="../IMAGENES/go-back256_24856.png" alt="Flecha indicando retorno"></a>
+
+</section>
+<hr> 
+</body>
+</html>
